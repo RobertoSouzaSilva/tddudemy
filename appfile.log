@@ -155,3 +155,19 @@ Caused by: java.lang.Error: Unresolved compilation problem:
 2020-05-01 19:05:18.010  INFO 5748 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Roberto\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Roberto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Roberto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Roberto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Roberto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Roberto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Roberto/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
 2020-05-01 19:05:18.011  INFO 5748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2020-05-01 19:05:18.011  INFO 5748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-01 19:24:21.716  INFO 2172 --- [main] b.c.t.c.api.resource.BookControllerTest  : Starting BookControllerTest on DESKTOP-27R9NL5 with PID 2172 (started by Roberto in C:\Users\Roberto\eclipse-workspace\curso-tdd-spring-udemy)
+2020-05-01 19:24:21.718  INFO 2172 --- [main] b.c.t.c.api.resource.BookControllerTest  : The following profiles are active: test
+2020-05-01 19:24:23.394  INFO 2172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 19:24:23.696  INFO 2172 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-01 19:24:23.697  INFO 2172 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-01 19:24:23.715  INFO 2172 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 18 ms
+2020-05-01 19:24:23.757  INFO 2172 --- [main] b.c.t.c.api.resource.BookControllerTest  : Started BookControllerTest in 2.426 seconds (JVM running for 4.399)
+2020-05-01 19:24:24.635  INFO 2172 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 19:26:17.742  INFO 13976 --- [main] b.c.t.c.api.resource.BookControllerTest  : Starting BookControllerTest on DESKTOP-27R9NL5 with PID 13976 (started by Roberto in C:\Users\Roberto\eclipse-workspace\curso-tdd-spring-udemy)
+2020-05-01 19:26:17.743  INFO 13976 --- [main] b.c.t.c.api.resource.BookControllerTest  : The following profiles are active: test
+2020-05-01 19:26:19.454  INFO 13976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 19:26:19.823  INFO 13976 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-05-01 19:26:19.823  INFO 13976 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-05-01 19:26:19.840  INFO 13976 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 17 ms
+2020-05-01 19:26:19.884  INFO 13976 --- [main] b.c.t.c.api.resource.BookControllerTest  : Started BookControllerTest in 2.505 seconds (JVM running for 3.767)
+2020-05-01 19:26:20.639  INFO 13976 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

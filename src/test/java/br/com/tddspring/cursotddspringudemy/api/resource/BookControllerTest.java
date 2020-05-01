@@ -30,6 +30,7 @@ import br.com.tddspring.cursotddspringudemy.api.dto.BookDTO;
 import br.com.tddspring.cursotddspringudemy.exception.BusinessException;
 import br.com.tddspring.cursotddspringudemy.model.entity.Book;
 import br.com.tddspring.cursotddspringudemy.service.BookService;
+import br.com.tddspring.cursotddspringudemy.service.LoanService;
 
 @ExtendWith(SpringExtension.class)
 @ActiveProfiles("test")
@@ -44,6 +45,9 @@ public class BookControllerTest {
 
 	@MockBean
 	private BookService service;
+	
+	@MockBean
+	private LoanService loanService;	
 
 	@Test
 	@DisplayName("Deve criar um livro com sucesso")
